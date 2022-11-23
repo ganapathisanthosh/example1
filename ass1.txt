@@ -1,0 +1,347 @@
+//Checking Identical characters 
+
+using System;
+
+namespace prob1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter String:");
+            string str = Console.ReadLine();
+            str = str.ToUpper();
+            int i;
+            for (i = 1; i < str.Length; i++)
+            {
+                if (str[0] != str[i])
+                    break;
+            }
+            if (i == str.Length)
+                Console.WriteLine("All Charcters are identical");
+            else
+                Console.WriteLine("All Characters are not Identical");
+
+        }
+    }
+}
+22222222222222222222222222222222222222222
+
+
+//Remove first and last characters if string
+using System;
+
+namespace ass2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter string : ");
+            string text = Console.ReadLine();
+            string str = "";
+            int i;
+            for (i = 1; i < (text.Length - 1); i++)
+                    str += text[i];
+            Console.WriteLine("After removing first and last charcters of string :{0}", str);
+        }
+    }
+}
+
+
+333333333333333333333333333333333333
+//Reversed string 
+using System;
+
+namespace ass3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        start:
+            Console.Write("Enter string : ");
+            string text = Console.ReadLine();
+            string str = "";
+            int i;
+            if (String.IsNullOrEmpty(text))
+            {
+                Console.WriteLine("String is Empty");
+                goto start;
+            }
+            else
+            {
+                for (i = (text.Length - 1); i >= 0; i--)
+                {
+                    str += text[i];
+                }
+                Console.WriteLine("Reversed version of {0} is  {1}", text, str);
+
+            }
+        }
+    }
+}
+
+
+
+
+44444444444444444444444444444444
+
+//Between Words
+
+using System;
+
+namespace prob4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter first string : ");
+            string str1 = Console.ReadLine();
+            Console.Write("Enter last string : ");
+            string str2 = Console.ReadLine();
+            Console.Write("Enter word : ");
+            string str3 = Console.ReadLine();
+            Console.WriteLine(IsBetween(str1, str2, str3) ? "Yes exists between words" : "Do not exists between Words");
+
+        }
+    
+            public static bool IsBetween(string first, string last, string word)
+            {
+                if ((first.CompareTo(word)) < 0 && (last.CompareTo(word)) > 0)
+                    return true;
+                else
+                    return false;
+
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+555555555555555555555555555555
+
+//Vowel Replacer
+
+
+using System;
+
+namespace prob5
+{
+    class VowelReplacer
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter String : ");
+            string str = Console.ReadLine();
+            Console.Write("Enter replacable string : ");
+            string vow = Console.ReadLine();
+            Console.WriteLine(ReplaceVowels(str,vow));
+            
+        }
+            public static string ReplaceVowels(string str, string ch)
+            {
+                string str1 = str.ToUpper();
+                string result = "";
+                 int i;
+                for (i = 0; i < str.Length; i++)
+                {
+                    if (str1[i] == 'A' | str1[i] == 'E' | str1[i] == 'I' | str1[i] == 'O' | str1[i] == 'U')
+                    {
+                        result += ch;
+                    }
+                    else
+                        result += str[i];
+
+                }
+                return result;
+            }
+
+    }
+}
+ 666666666666666666666666666666
+
+//Indexing of capital letters
+using System;
+using System.Collections.Generic;
+
+namespace prob6
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter String : ");
+            string str = Console.ReadLine();
+            int i;
+            List<int> lis = new List<int>();
+            for (i = 0; i < str.Length; i++)
+            {
+                if (str[i] >= 'A' && str[i] <= 'Z')
+                    lis.Add(i);
+            }
+            foreach(int j in lis)
+            {
+                Console.Write(j);
+            }
+        }
+    }
+}
+
+
+
+7777777777777777777777777
+//Reverse the case
+
+using System;
+
+namespace prob7
+{
+    class Program
+    {
+		static void Main(string[] args)
+		{
+			Console.Write("Enter String : ");
+			string str = Console.ReadLine();
+			Console.WriteLine(ReverseCase(str));
+		}
+			public static string ReverseCase(string str)
+
+			{
+			string res = " ";
+				foreach (char c in str)
+				{
+					if (c >= 'A' && c <= 'Z')
+					{
+					res += ((char)((int)c +32));
+				}
+				else if (c >= 'a' && c <= 'z')
+				{
+					res += ((char)((int)c - 32));
+				}
+				else 
+					res += c;
+
+				}
+				return res;
+			
+		}
+
+	}
+}
+
+    888888888888888888888888
+//middle characters
+using System;
+
+namespace pro8
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter String: ");
+            string str = Console.ReadLine();
+            string res = "";
+            int k = (str.Length) / 2;
+            if (((str.Length)%2) == 1)
+                res += str[k];
+            else
+            {
+                res += str[k-1];
+                res += str[k];
+            }
+            Console.WriteLine(res);
+
+        }
+    }
+}
+
+
+999999999999999999999999999
+//Isogram
+
+using System;
+
+namespace proj9
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter String : ");
+            string str = Console.ReadLine();
+            int i, j, k = 0;
+            for(i=0;i<str.Length;i++)
+            {
+                for(j=0;j<str.Length;j++)
+                {
+                    if(i!=j)
+                    {
+                        if (str[i] == str[j])
+                        {
+                            k = 5;
+                            Console.WriteLine("{0} is not an Isogram", str);
+                            break;
+                        }
+                    }
+                }
+                if (k == 5)
+                    break;
+            }
+            if (k != 5)
+                Console.WriteLine("{0} is an Isogram", str);
+            
+        }
+    }
+}
+
+
+
+
+
+101010101010101010101010
+
+
+//Number Format
+
+using System;
+
+namespace prob10
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter Number : ");
+           int num = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(FormatNumber(num));
+        }
+            public static string FormatNumber(int num)
+            {
+                string str = num.ToString("N");
+                 string str1 = str.Remove((str.Length - 3));
+
+
+                  return str1;
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+

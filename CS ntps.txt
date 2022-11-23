@@ -1,0 +1,89 @@
+The description of your offer should clearly state all outcomes and service deliverables. To optimize the offer description, please provide some additional details clarifying the Azure professional services delivered during the 3-days assessment. Please update the description and resubmit your offer.
+For more information, please see: 
+https://docs.microsoft.com/en-us/azure/marketplace/plan-consulting-service-offer#offer-listing-details
+
+The description of your offer does not specify the primary product[Microsoft Azure] related aspects of the offer or the professional services being offered. Please update the description and resubmit your offer.
+For more information, please see: 
+https://docs.microsoft.com/en-us/azure/marketplace/plan-consulting-service-offer#primary-products-and-online-stores
+
+
+
+The description of your offer must clearly state how it leverages or relates to Microsoft Azure cloud services value propositions, and state how the offer is providing a professional service for the selected primary product[Azure]. Please update the description and resubmit your offer.
+For more information, please see:
+ https://docs.microsoft.com/en-us/azure/marketplace/plan-consulting-service-offer#offer-listing-details
+
+
+
+
+The goal of consulting services is to provide professional services that help customers get started with or extend their use of primary product[Microsoft Azure] by providing expertise, capabilities, and know-how that they either do not have in-house or need to augment. Please make sure you articulate how your professional services support customers in getting started with or extending their use of Microsoft Azure.
+For more information, please see:
+* https://docs.microsoft.com/en-us/azure/marketplace/plan-consulting-service-offer
+* https://docs.microsoft.com/en-us/azure/marketplace/publisher-guide-by-offer-type
+
+
+The title of your offer should not include your company name unless it is the offer name. For example: Monitoring as Code - MaC:6-Weeks POC. Please update the title under Offer Listings in the Name field and resubmit your offer.
+For more information, please see:
+ https://docs.microsoft.com/en-us/azure/marketplace/create-consulting-service-offer-listing#offer-details
+
+The title of your offer must include the offer name, duration, and type. For example: Monitoring as Code - MaC:6-Weeks POC
+Please update the title under Offer Listings in the Name field and resubmit your offer.
+For more information, please see:
+ https://docs.microsoft.com/en-us/azure/marketplace/create-consulting-service-offer-listing#offer-details
+
+
+if offer related to Powere BI?
+
+Please note, Microsoft AppSource storefront is the home for offers and applications that build on or extend Office 365, Dynamics 365, Power BI, and Power Apps. Consulting services in Microsoft AppSource can leverage offerings geared towards their expertise in delivering quality solutions for Dynamics 365, Power BI, or Power Apps to list their consulting services offerings on Microsoft AppSource. 
+
+title service type mismatch
+
+The Consulting Service Type selected for your offer (Proof of Concept) does not match the type listed in the title (Assessment). Please update the type selection or the mentioned mismatch and re-submit your offer. 
+
+
+Managed Services Deliverables and outcomes:
+The description of your offer should clearly state all aspects of the Azure managed service (what will be managed and how it will be managed). Please update the description and resubmit your offer
+For more information, please see: https://docs.microsoft.com/en-us/azure/marketplace/partner-center-portal/create-new-managed-service-offer#description
+
+The duration selected for your offer (3-Weeks) does not match the duration listed in the title (3-Sem). Please update the duration selection or the mentioned mismatch and re-submit your offer. 
+
+
+managed light house:----
+The goal of a Managed Service offer must be to provide human-led ongoing professional services that manage customers' Azure Lighthouse scenarios. If the goal of an offer is to sell licenses or subscriptions to a proprietary software or a platform, then the offer should be listed as an application on Azure Marketplace.
+
+If the primary goal of the offer is to provide Azure managed services in addition to a particular software or app, please make sure you have clarified the professional service being provided, how the software adds value to a customer's Azure environment, and what is being managed within the customer’s Azure environment.
+
+About Managed Services: https://docs.microsoft.com/en-us/azure/lighthouse/concepts/managed-services-offers
+
+About Azure Lighthouse: https://docs.microsoft.com/en-us/azure/lighthouse/overview
+
+Offer Type guide: https://docs.microsoft.com/en-us/azure/marketplace/publisher-guide-by-offer-type
+ae18d541-b022-49db-a1ad-fed06d58de33
+
+managed omits cloud:-----
+The description of your offer must clearly state how it leverages and relates to Azure cloud services value propositions, and state how the offer is providing a managed service for an Azure environment. Please update the description and resubmit your offer.
+For more information, please see: https://docs.microsoft.com/en-us/azure/lighthouse/concepts/managed-services-offers
+
+
+The goal of Consulting Services is to provide professional services that help customers get started with or extend their use of [List Primary Product] by providing expertise, capabilities, and know-how that they either do not have in-house or need to augment. The services being provided must be clearly outlined in the description. Currently, the description only states the benefits of what sounds like a product suite [or list product name], but does not outline any [Primary Product] services provided during the [implementation].  
+If the goal of an offer is to sell licenses, subscriptions, or management of a proprietary software or platform, then the offer must be listed as an application on the Marketplace. 
+For more information, please see:  
+* https://docs.microsoft.com/en-us/azure/marketplace/plan-consulting-service-offer   
+* https://docs.microsoft.com/en-us/azure/marketplace/publisher-guide-by-offer-type 
+
+By reading the description, we understood that Blue Chip Migrator looking to be a product not a service. Please update your description with suggested information and republish your offer.
+
+If the ms offer seems to be product-------
+The goal of a Managed Service offer must be to provide human-led ongoing professional services that manage customers' Azure Lighthouse scenarios. If the goal of an offer is to sell licenses or subscriptions to a proprietary software or a platform, then the offer should be listed as an application on Azure Marketplace.
+
+If the primary goal of the offer is to provide Azure managed services in addition to a particular software or app, please make sure you have clarified the professional service being provided, how the software adds value to a customer's Azure environment, and what is being managed within the customer’s Azure environment.
+
+About Managed Services: https://docs.microsoft.com/en-us/azure/lighthouse/concepts/managed-services-offers
+About Azure Lighthouse: https://docs.microsoft.com/en-us/azure/lighthouse/overview
+Offer Type guide: https://docs.microsoft.com/en-us/azure/marketplace/publisher-guide-by-offer-type
+
+Consulting Services must be fixed in scope and have a defined outcome. Your offer should focus on only one Service Type: for example, the selected type: [assessment]. This service should be stated in the description, the title,
+ and the Consulting Service Type dropdown. Other services may be mentioned but should not be the focus of the same offer. Other Service Types mentioned: [List Types]
+ 
+For more information: https://docs.microsoft.com/en-us/azure/marketplace/plan-consulting-service-offer#service-type-and-duration 
+
+
